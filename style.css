@@ -1,0 +1,33 @@
+body {
+  font-size: 26px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #14e6bf;
+  margin: 80px 10px;
+}
+
+video {
+  width: 40vw;
+  height: 30vw;
+  margin: 1.5rem;
+  background: #000000;
+}
+
+.videos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 0.25rem;
+  background: #e65e14;
+  color: #ffffff;
+  cursor: pointer;
+  margin: 0.5rem;
+}

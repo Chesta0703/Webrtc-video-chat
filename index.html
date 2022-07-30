@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebRTC Video Chat</title>
+  </head>
+  <body>
+    <h2>Give media access</h2>
+    <div class="videos">
+      <span>
+        <h3>User's media</h3>
+        <video id="webcamVideo" autoplay playsinline></video>
+      </span>
+      <span>
+        <h3>Caller</h3>
+        <video id="remoteVideo" autoplay playsinline></video>
+      </span>
+
+
+    </div>
+
+    <button id="webcamButton">Give media access</button>
+    <h2>Create a new Call</h2>
+    <button id="callButton" disabled>Create Call</button>
+
+    <h2>Join a Call</h2>
+    
+    <input id="callInput" />
+    <button id="answerButton" disabled>Answer</button>
+
+    <h2>Hangup</h2>
+
+    <button id="hangupButton" disabled>Hangup</button>
+
+    <script type="module" src="/main.js"></script>
+
+  </body>
+</html>
