@@ -1,2 +1,8 @@
 # Webrtc-video-chat
- a video chat app using WebRTC and Firebase
+A video chat app using WebRTC and Firebase
+
+
+
+git clone <this-repo>
+npm install
+npm run dev
